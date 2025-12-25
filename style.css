@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+}
+
+nav {
+    background: #4CAF50;
+    color: white;
+    padding: 15px;
+}
+
+.dashboard {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.dashboard div {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.form, .list {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+a {
+    margin-right: 8px;
+    text-decoration: none;
+}
