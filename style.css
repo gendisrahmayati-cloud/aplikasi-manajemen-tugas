@@ -7,7 +7,7 @@ body {
     display: inline-block;
     margin-right: 15px;
     padding: 10px;
-    background: #e3f2fd;
+    background: #97b4f3;
     border-radius: 5px;
 }
 
@@ -17,12 +17,12 @@ table {
 }
 
 th, td {
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     padding: 8px;
 }
 
 th {
-    background: #f0f0f0;
+    background: #85bef3;
 }
 
 input, textarea, button {
