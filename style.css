@@ -1,38 +1,14 @@
 body {
-    font-family: Arial, sans-serif;
-    background: #f4f6f8;
-    margin: 0;
-}
-
-nav {
-    background: #4CAF50;
-    color: white;
-    padding: 15px;
-}
-
-.dashboard {
-    display: flex;
-    gap: 20px;
+    font-family: Arial;
     padding: 20px;
 }
 
 .dashboard div {
-    background: white;
-    padding: 15px;
-    border-radius: 8px;
-}
-
-.form, .list {
-    background: white;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 8px;
-}
-
-input, textarea, button {
-    width: 100%;
-    padding: 8px;
-    margin: 5px 0;
+    display: inline-block;
+    margin-right: 15px;
+    padding: 10px;
+    background: #e3f2fd;
+    border-radius: 5px;
 }
 
 table {
@@ -41,11 +17,15 @@ table {
 }
 
 th, td {
-    border-bottom: 1px solid #ddd;
-    padding: 10px;
+    border: 1px solid #ccc;
+    padding: 8px;
 }
 
-a {
-    margin-right: 8px;
-    text-decoration: none;
+th {
+    background: #f0f0f0;
+}
+
+input, textarea, button {
+    margin: 5px 0;
+    padding: 5px;
 }
